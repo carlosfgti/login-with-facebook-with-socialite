@@ -209,6 +209,11 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
+        /**
+        * Register alias Socialite: https://laravel.com/docs/5.6/socialite
+        */
+        'Socialite' => Laravel\Socialite\Facades\Socialite::class,
+
     ],
 
 ];
